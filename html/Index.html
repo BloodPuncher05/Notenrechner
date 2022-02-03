@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notenrechner</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="../js/main.js"></script>
+
+</head>
+<body>
+<h1>!!!Hier Notendurchschnitt ausrechnen!!!</h1>
+<p>definitiv kein Scam</p>
+<p>oder Virus ;)</p>
+
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfnote1">
+        <label class="mdl-textfield__label" for="tfnote1">Punkte...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfnote2">
+        <label class="mdl-textfield__label" for="tfnote2">Punkte...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfnote3">
+        <label class="mdl-textfield__label" for="tfnote3">Punkte...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfnote4">
+        <label class="mdl-textfield__label" for="tfnote4">Punkte...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfnote5">
+        <label class="mdl-textfield__label" for="tfnote5">Punkte...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+</form>
+
+<p>Und das Ergebnis ist...</p>
+<p id="ausgabe"> </p>
+
+<!-- Accent-colored raised button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="tfAuslesen()">
+    Berechnen
+</button>
+
+</body>
+
+</html>
